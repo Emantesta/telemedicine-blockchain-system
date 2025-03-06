@@ -1,0 +1,20 @@
+intelligent-telemedicine-blockchain-system/
+├── contracts/
+│   ├── TelemedicineSystem.sol
+│   ├── package.json
+│   ├── hardhat.config.js
+│   └── .env.example
+├── backend/
+│   ├── index.js
+│   ├── package.json
+│   └── .env.example
+├── frontend/
+│   ├── src/
+│   │   ├── App.jsx
+│   │   └── index.js  (minimal entry point)
+│   ├── package.json
+│   ├── tailwind.config.js
+│   └── .env.example
+├── README.md
+├── LICENSE
+└── .gitignore
