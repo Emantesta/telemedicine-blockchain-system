@@ -1,0 +1,20 @@
+{
+  "name": "telemedicine-smart-contract",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js --network sonicTestnet"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.12",
+    "@openzeppelin/hardhat-upgrades": "^3.0.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts-upgradeable": "^4.9.3",
+    "@chainlink/contracts": "^0.8.0",
+    "@account-abstraction/contracts": "^0.5.0",
+    "dotenv": "^16.0.3"
+  }
+}
