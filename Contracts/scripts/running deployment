@@ -1,0 +1,2 @@
+cd contracts
+npx hardhat run scripts/deploy.js --network sonicTestnet
