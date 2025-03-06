@@ -1,0 +1,14 @@
+Navigate to frontend/ :
+cd frontend
+
+Install dependencies:
+npm install
+
+Configure .env (copy .env.example):
+REACT_APP_API_URL=https://localhost:8080
+REACT_APP_SONIC_RPC_URL=https://sonic-testnet.rpc.soniclabs.io
+REACT_APP_CONTRACT_ADDRESS=<deployed-address>
+
+Start the development server:
+npm start
+
