@@ -29,3 +29,22 @@ A decentralized telemedicine platform built on the Sonic Testnet, integrating AI
 1. Navigate to `contracts/`:
    ```bash
    cd contracts
+
+
+2. Install Dependencies
+   npm install
+
+3. Configure .env (copy .env.example and fill in values):
+   SONIC_RPC_URL=https://sonic-testnet.rpc.soniclabs.io
+   PRIVATE_KEY=<your-private-key>
+   SONICSCAN_API_KEY=<your-sonicscan-api-key>
+   USDC_TOKEN_ADDRESS=<address>
+   SONIC_TOKEN_ADDRESS=<address>
+   ETH_USD_PRICE_FEED=<address>
+   SONIC_USD_PRICE_FEED=<address>
+   ENTRY_POINT_ADDRESS=<address>
+   CONTRACT_ADDRESS=<deployed-address>
+
+4. Compile and deploy:
+   npx hardhat compile
+   npx hardhat run scripts/deploy.js --network sonicTestnet   
